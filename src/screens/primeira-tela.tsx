@@ -14,7 +14,7 @@ const Greeting = ({ name }: props) => {
   )
 }
 
-export default function App() {
+export default function PrimeiraTela() {
 
   const [curtidas, setCurtidas] = useState(0)
   const [message, setMessage] = useState('')
